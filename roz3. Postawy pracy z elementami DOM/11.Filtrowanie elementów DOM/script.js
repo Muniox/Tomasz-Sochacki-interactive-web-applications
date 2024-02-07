@@ -16,3 +16,8 @@ const list3 = document.getElementById('list');
 const filteredItems4 = [...list3.children].filter(item => item.textContent.length > 6);
 console.log(`Elementy o długości większej niż 6 znaków: ${filteredItems4.length}`);
 // Elementy o długości większej niż 6 znaków: 2
+
+const article = document.getElementById('article');
+const paragraphs = [...article.children].filter(element => element.nodeName === 'P');
+console.log(`Liczba elementów <p>: ${paragraphs.length}`);
+// Liczba elementów <p>: 3
