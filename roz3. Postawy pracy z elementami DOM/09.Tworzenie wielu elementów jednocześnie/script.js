@@ -17,5 +17,5 @@ items.forEach((label) => {
 });
 list.appendChild(fragment); // odświeżenie drzewa DOM następuje tylko raz w tym miejscu
 
-// Fragment jest uproszczonym bytem wirtualnym, tymczasowym, służącym właśnie do tego aby nie dokonywać
+// Fragment jest uproszczonym bytem wirtualnym, tymczasowym, służącym właśnie do tego, aby nie dokonywać
 // co chwilę wielokrotnych aktualizacji DOM, jeśli nie jest to potrzebne

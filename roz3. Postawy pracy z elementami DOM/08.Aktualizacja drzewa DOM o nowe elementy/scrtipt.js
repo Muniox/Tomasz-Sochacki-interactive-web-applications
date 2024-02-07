@@ -5,14 +5,14 @@ newElement.textContent = 'Trzeci element';
 list.appendChild(newElement);
 
 // wstawienie elementu przed określonym elementem
-// w parametrze musimy podać przed jakim elementem chcemy wstawić element
+// w parametrze musimy podać, przed jakim elementem chcemy wstawić element,
 // jeśli wstawimy null zachowa się podobnie jak powyższy przykład
 
 list.insertBefore(newElement, null);
 
 // Metoda insertAdjecent
 /**
- * Należy podać jedną z czterecha wartości
+ * Należy podać jedną z czterech wartości
  *
  * beforebegin
  *  <p>

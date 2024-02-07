@@ -1,4 +1,4 @@
-// Chcemy wyświetlić liczbę wszystkich zgód, jakie powienien zaznaczyć użytkownik
+// Chcemy wyświetlić liczbę wszystkich zgód, jakie powinien zaznaczyć użytkownik
 // oraz liczbę zgód, które już zaznaczył.
 
 const agreementsList = document.querySelector('#user-agreements');

@@ -12,6 +12,6 @@ text.setAttribute('id', 'jakiś napis');
 text.className = 'css-class';
 text.setAttribute('class', 'css-class');
 
-// Istnieje również metoda setAttribute w którea przyjmuje jden parametr: nazwę szukanego atrybutu.
+// Istnieje również metoda setAttribute, w której przyjmuje jeden parametr: nazwę szukanego atrybutu.
 // Jeśli element nie posiada takiego atrybutu, to metoda ta zwróci wartość null:
 console.log(text.getAttribute('class')); // "css-class"

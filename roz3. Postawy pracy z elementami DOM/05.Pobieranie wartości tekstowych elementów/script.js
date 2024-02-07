@@ -1,7 +1,7 @@
 const title = document.getElementById('title').textContent;
 console.log(title); // "Tytuł artykułu"
 
-// Wcześniej mówiliśmy, że metoda getElementsById może zwrócić null, jeśli nie uda jej się znaleźć szukanego elementu
+// Wcześniej mówiliśmy, że metoda getElementsById może zwrócić null, jeśli nie uda jej się znaleźć szukanego elementu,
 // Aby się przed tym zabezpieczyć, możemy użyć:
 
 const title2 = document.getElementById('title');
